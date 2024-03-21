@@ -14,7 +14,7 @@ This is a simple shell script to download a section of a youtube video. It uses 
 
 Simply download this repo and run the below command in your terminal. Outputs a file called out.mp4.
 
-        ./snippet.sh <Youtube URL> <Start time> <end time>
+        ./snippet.sh <Youtube URL> <Start time> <Duration time>
 
 Timestamp must be in 00:00:00.00 format (hh:mm:ss.ss).
 
