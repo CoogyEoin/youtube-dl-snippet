@@ -5,5 +5,5 @@
 
 download_url=$(yt-dlp -f 'best' -g $1)
 
-#echo $download_url
-ffmpeg -i $download_url -ss $2 -t $3 -c copy out.mp4 
+echo $download_url
+ffmpeg -i "$download_url" -ss $2 -t $3 -c copy "out.mp4"
